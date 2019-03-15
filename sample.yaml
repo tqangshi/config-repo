@@ -1,1 +1,4 @@
 sample: configuration-ryan-2
+server:
+  servlet:
+    context-path: /cloud_demo
