@@ -4,4 +4,4 @@ logging:
   level:
     com.netflix: WARN
     org.springframework.web: WARN
-    com.moan.hoe: DEBUG
+    com.moan.hoe: INFO
