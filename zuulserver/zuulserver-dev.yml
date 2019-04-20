@@ -2,7 +2,7 @@ zuul.ignored-services: "orgservice-new"
 zuul.prefix:  /api
 zuul.routes.demoservice: /demo/**
 zuul.routes.customservice: /custom/**
-# zuul.routes.authenticationservice: /auth/**
+zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Authorization
 zuul.debug.request: true
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2
